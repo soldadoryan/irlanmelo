@@ -3,6 +3,10 @@
   --secondary: #0c4483;
   --terciary: #fdc049;
   --shape: #fff;
+  --text: #222;
+  --text-light: #666;
+
+  --spacing-md: 2rem;
 }
 
 body {

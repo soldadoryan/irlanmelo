@@ -24,7 +24,7 @@ function Banner() {
           alt="Logo do Vereador Irlan Melo em branco com bandeira do Brasil no O de Melo"
         />
       </div>
-      <div className={s.pattern}></div>
+      <div className={s.scrollIndicator}></div>
     </section>
   );
 }

@@ -1,0 +1,107 @@
+.about {
+  background-color: #ddf3f3;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  position: absolute;
+}
+
+.about .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about .content h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--terciary);
+  width: 100%;
+
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-md);
+}
+
+.about .content h1 > strong {
+  color: var(--primary);
+  font-size: 5rem;
+}
+
+.about .content p {
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-top: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about .wrapImage {
+  flex: 1;
+  position: relative;
+}
+
+.about .wrapImage img {
+  width: 100%;
+  height: auto;
+  object-position: right;
+}
+
+.about .wrapImage .imgDescription {
+  width: 300px;
+  position: absolute;
+  bottom: 75px;
+  right: -50px;
+  padding: 1rem;
+  background-color: var(--primary);
+  color: var(--shape);
+  font-weight: 300;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about .pattern {
+  position: absolute;
+  bottom: -240px;
+  left: -275px;
+  opacity: 0.05;
+}
+
+.about .content button.ctaAbout {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.2rem;
+  color: var(--primary);
+  font-weight: 600;
+  position: relative;
+  margin-top: var(--spacing-md);
+  cursor: pointer;
+}
+
+.about .content button.ctaAbout::before {
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.about .content button.ctaAbout:hover::before {
+  width: 70%;
+  background-color: var(--terciary);
+  height: 3px;
+}
