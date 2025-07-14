@@ -1,7 +1,9 @@
 :root {
   --primary: #093567;
+  --primaryDark: #001225;
   --secondary: #0c4483;
   --terciary: #fdc049;
+  --green: #259856;
   --shape: #fff;
   --text: #222;
   --text-light: #666;
@@ -9,10 +11,15 @@
   --spacing-md: 2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 20000px;
 }
 
 body,

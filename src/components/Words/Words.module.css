@@ -1,0 +1,44 @@
+.words {
+  background-color: var(--primary);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words .wrapVideo {
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.words .video {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  object-fit: cover;
+}
+
+.words .wrapTitle {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words .wrapTitle .title {
+  background-image: url("/valores.png");
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}

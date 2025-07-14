@@ -1,0 +1,78 @@
+{
+  "about": {
+    "data-animation": "position",
+    "data-anim-start": "865",
+    "data-anim-value": "fixed",
+    "data-anim-defaultvalue": "relative"
+  },
+  "wrapWords": {
+    "data-animation": "bottom",
+    "data-anim-start": "1200",
+    "data-anim-end": "2500",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "vh",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "video": {
+    "data-animation": "opacity",
+    "data-anim-start": "3000",
+    "data-anim-end": "4000",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "1",
+    "data-anim-unit": "",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "wrapTitle": {
+    "data-animation": "transform",
+    "data-anim-start": "4500",
+    "data-anim-end": "6500",
+    "data-anim-startvalue": "1",
+    "data-anim-endvalue": "45",
+    "data-anim-unit": "",
+    "data-anim-prefixvalue": "scale(",
+    "data-anim-sufixvalue": ")"
+  },
+  "title": {
+    "data-animation": "left",
+    "data-anim-start": "4500",
+    "data-anim-end": "4550",
+    "data-anim-startvalue": "0",
+    "data-anim-endvalue": "-50",
+    "data-anim-unit": "px",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "greenEffect": {
+    "data-animation": "left",
+    "data-anim-start": "7000",
+    "data-anim-end": "7500",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "yellowEffect": {
+    "data-animation": "left",
+    "data-anim-start": "7250",
+    "data-anim-end": "7750",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  },
+  "contentEffect": {
+    "data-animation": "left",
+    "data-anim-start": "7500",
+    "data-anim-end": "8000",
+    "data-anim-startvalue": "-100",
+    "data-anim-endvalue": "0",
+    "data-anim-unit": "%",
+    "data-anim-prefixvalue": "",
+    "data-anim-sufixvalue": ""
+  }
+}

@@ -1,10 +1,11 @@
 import gs from "@/styles/global.module.css";
 import s from "./About.module.css";
 import Image from "next/image";
+import Animations from "@/components/ScrollingAnimation/animations.json";
 
 function About() {
   return (
-    <section className={s.about}>
+    <section className={s.about} {...Animations.about}>
       <Image
         src="/igreja.webp"
         width={700}
@@ -37,7 +38,7 @@ function About() {
           </button>
         </div>
         <div className={s.wrapImage}>
-          <Image width={600} height={700} src="/irlan_about.jpg" />
+          <Image width={600} height={700} src="/irlan_about.jpg" alt="Xablau" />
           <div className={s.imgDescription}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
